@@ -1,0 +1,132 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scientific">
+
+
+<TextView
+    android:id="@+id/txtScreen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:gravity="right|center_vertical"
+    android:maxLength="16"
+    android:padding="10dp"
+    android:background="@drawable/button"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="30sp"
+    android:typeface="serif"
+    android:text=" " />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/txtScreen"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <Button
+        android:id="@+id/btnSin"
+        android:text="sin"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/btnCos"
+        android:text="cos"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/btnTan"
+        android:text="tan"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/btnI"
+        android:text="i"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnLn"
+            android:text="ln"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btnLog"
+            android:text="log"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btnPi"
+            android:text="π"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btnExpo"
+            android:text="e"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnPer"
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btnFact"
+            android:text="!"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <Button
+            android:id="@+id/btnRoot"
+            android:text=" √"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content" />
+        <Button
+            android:id="@+id/btnSquare"
+            android:text="^"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnOpBr"
+            android:text="("
+            android:layout_height="60dp"
+            android:layout_width="wrap_content" />
+        <Button
+            android:id="@+id/btnClBr"
+            android:text=")"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/btnBasic"
+            android:text="Basic"
+            android:layout_width="179dp"
+            android:layout_height="60dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
